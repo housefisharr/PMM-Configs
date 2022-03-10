@@ -3,6 +3,7 @@ collections:
   Plex Popular Movies:
     sync_mode: sync
     sort_title: +1_1
+    url_poster: https://github.com/housefisharr/PMM-Configs/raw/main/posters/plexpopular.png
     smart_label: random
     tautulli_popular:
       list_days: 30
