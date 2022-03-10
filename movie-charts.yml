@@ -13,7 +13,7 @@ collections:
       list_days: 30
       list_size: 20
       list_buffer: 20
-    summary: Plex Popular Movies over the last 30 days
+    summary: Movies popular on Plex over the last 30 days
   IMDb Popular Movies:
     sync_mode: sync
     sort_title: ++12
@@ -23,7 +23,7 @@ collections:
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 40
-    summary: IMDb Popular Movies over the last 30 days
+    summary: Movies popular on IMDb over the last 30 days
   Trakt Trending Movies:
     sync_mode: sync
     sort_title: ++13
@@ -32,7 +32,7 @@ collections:
     trakt_trending: 20
     tmdb_trending_daily: 20
     tmdb_trending_weekly: 20
-    summary: Trakt Trending Movies over the last 30 days
+    summary: Movies trending on Trakt.tv over the last 30 days
   IMDb Top Rated Movies:
     sync_mode: sync
     sort_title: ++14
@@ -40,12 +40,12 @@ collections:
     smart_label: audience_rating.desc
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
     tmdb_top_rated: 250
-    summary: IMDb Top Rated Movies
+    summary: 250 Top rated movies on IMDb
   Oscar Winning Movies:
     sync_mode: sync
     sort_title: ++15
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/oscars.png
     smart_label: audience_rating.desc
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
-    summary: Oscar Winning Movies
+    summary: Oscar winning movies
 
