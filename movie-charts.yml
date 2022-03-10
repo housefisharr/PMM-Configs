@@ -48,4 +48,52 @@ collections:
     smart_label: audience_rating.desc
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar winning movies
+  Best of All Time:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-top-100-movies-of-all-time
+    sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%20All%20Time.png
+    summary: Rotten Tomatoes Best Movies of All Time
+    smart_label: audience_rating.desc
+  Best of the 1990s:
+    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
+    sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%201990s.png
+    summary: Rotten Tomatoes Best Movies of the 1990's
+    smart_label: audience_rating.desc
+  Best of the 2000s:
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
+    sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202000s.png
+    summary: Rotten Tomatoes Best Movies of the 2000's
+    smart_label: audience_rating.desc
+  Best of the 2010s:
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-2010s
+    sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202010s.png
+    summary: Rotten Tomatoes Best Movies of the 2010's
+    smart_label: audience_rating.desc
+  Best of 2019:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019
+    sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202019.png
+    summary: Rotten Tomatoes Best Movies of 2019
+    smart_label: audience_rating.desc
+  Best of 2020:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2020
+    sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202020.png
+    summary: Rotten Tomatoes Best Movies of 2020
+    smart_label: audience_rating.desc
+  Best of 2021:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2021
+    sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202021.png
+    summary: Rotten Tomatoes Best Movies of 2021
+    smart_label: audience_rating.desc
+  Best of 2022:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2022
+    sync_mode: sync
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202022.png
+    summary: Rotten Tomatoes Best Movies of 2022
+    smart_label: audience_rating.desc
 
