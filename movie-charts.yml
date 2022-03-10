@@ -2,7 +2,7 @@
 collections:
   Plex Popular Movies:
     sync_mode: sync
-    sort_title: "++11"
+    sort_title: ++11
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/plexpopular.png
     smart_label: random
     tautulli_popular:
