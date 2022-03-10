@@ -1,4 +1,4 @@
-#TV Networks - Hiren-Z, OhMyBahGosh, JJJonesJr33 - python plex_meta_manager.py -r
+#TV Networks - python plex_meta_manager.py -r
 templates:
   network:
     optional:
