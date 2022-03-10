@@ -1,16 +1,9 @@
 #Movie Charts - python plex_meta_manager.py -r
-templates:
-  Chart:
-    sync_mode: sync
-    smart_label: random
-  Best of:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
-    sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of <<year>>
-    smart_label: audience_rating.desc
 collections:
   Plex Popular Movies:
-    template: { name: Chart }
+    sync_mode: sync
+    sort_title: +1_1
+    smart_label: random
     tautulli_popular:
       list_days: 30
       list_size: 20
@@ -21,50 +14,32 @@ collections:
       list_buffer: 20
     summary: Plex Popular Movies over the last 30 days
   IMDb Popular Movies:
-    template: { name: Chart }
+    sync_mode: sync
+    sort_title: +1_2
+    smart_label: audience_rating.desc
     tmdb_popular: 40
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 40
     summary: IMDb Popular Movies over the last 30 days
   Trakt Trending Movies:
-    template: { name: Chart }
+    sync_mode: sync
+    sort_title: +1_3
+    smart_label: audience_rating.desc
     trakt_trending: 20
     tmdb_trending_daily: 20
     tmdb_trending_weekly: 20
     summary: Trakt Trending Movies over the last 30 days
   IMDb Top Rated Movies:
-    template: { name: Chart }
+    sync_mode: sync
+    sort_title: +1_4
+    smart_label: audience_rating.desc
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
     tmdb_top_rated: 250
     summary: IMDb Top Rated Movies
   Oscar Winning Movies:
-    template: { name: Chart }
+    sync_mode: sync
+    sort_title: +1_5
+    smart_label: audience_rating.desc
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar Winning Movies
-  RT Best of All Time:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-top-100-movies-of-all-time
-    sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of All Time
-    smart_label: audience_rating.desc
-  RT Best of the 1990s:
-    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
-    sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of the 1990s
-    smart_label: audience_rating.desc
-  RT Best of the 2000s:
-    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
-    sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of the 2000s
-    smart_label: audience_rating.desc
-  RT Best of the 2010s:
-    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-2010s
-    sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of the 2010s
-    smart_label: audience_rating.desc
-  RT Best of 2019:
-    template: { name: Best of, year: 2019 }
-  RT Best of 2020:
-    template: { name: Best of, year: 2020 }
-  RT Best of 2021:
-    template: { name: Best of, year: 2021 }
