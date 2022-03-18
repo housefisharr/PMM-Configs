@@ -3,7 +3,7 @@ collections:
   Plex Popular Movies:
     sync_mode: sync
     sort_title: ++11
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/plexpopular.png
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     smart_label: random
     tautulli_popular:
       list_days: 30
@@ -14,10 +14,24 @@ collections:
       list_size: 20
       list_buffer: 20
     summary: Movies popular on Plex over the last 30 days
+  Recently Released:
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Released.png
+    sort_title: ++12
+    smart_filter:
+      sort_by: release.desc
+      all:
+        release: 30
+  Recently Added:
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
+    sort_title: ++13
+    smart_filter:
+      sort_by: added.desc
+      all:
+        added: 30
   IMDb Popular Movies:
     sync_mode: sync
-    sort_title: ++12
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/popular.png
+    sort_title: ++14
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     smart_label: audience_rating.desc
     tmdb_popular: 40
     imdb_list:
@@ -26,82 +40,53 @@ collections:
     summary: Movies popular on IMDb over the last 30 days
   Trakt Trending Movies:
     sync_mode: sync
-    sort_title: ++13
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/trending.png
+    sort_title: ++15
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Trending%20Movies.png
     smart_label: audience_rating.desc
     trakt_trending: 20
     tmdb_trending_daily: 20
     tmdb_trending_weekly: 20
     summary: Movies trending on Trakt.tv over the last 30 days
-  IMDb Top Rated Movies:
+  IMDb Top 100 Rated Movies:
     sync_mode: sync
-    sort_title: ++14
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/toprated.png
+    sort_title: ++16
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
     smart_label: audience_rating.desc
-    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
-    tmdb_top_rated: 250
-    summary: 250 Top rated movies on IMDb
+    imdb_list: https://www.imdb.com/search/title/?groups=top_100&count=100/
+    tmdb_top_rated: 100
+    summary: 100 Top rated movies on IMDb
   Oscar Winning Movies:
     sync_mode: sync
-    sort_title: ++15
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/oscars.png
+    sort_title: ++17
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Ocar.png
     smart_label: audience_rating.desc
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar winning movies
   Best of All Time:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-top-100-movies-of-all-time
     sync_mode: sync
-    sort_title: ++27
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%20All%20Time.png
+    sort_title: ++20
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/All%20Time.png
     summary: Rotten Tomatoes Best Movies of All Time
-    smart_label: audience_rating.desc
-  Best of the 1990s:
-    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
-    sync_mode: sync
-    sort_title: ++26
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%201990s.png
-    summary: Rotten Tomatoes Best Movies of the 1990's
-    smart_label: audience_rating.desc
-  Best of the 2000s:
-    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
-    sync_mode: sync
-    sort_title: ++25
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202000s.png
-    summary: Rotten Tomatoes Best Movies of the 2000's
     smart_label: audience_rating.desc
   Best of the 2010s:
     trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-2010s
     sync_mode: sync
-    sort_title: ++24
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202010s.png
+    sort_title: ++21
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2010.png
     summary: Rotten Tomatoes Best Movies of the 2010's
     smart_label: audience_rating.desc
-  Best of 2019:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019
-    sync_mode: sync
-    sort_title: ++23
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202019.png
-    summary: Rotten Tomatoes Best Movies of 2019
-    smart_label: audience_rating.desc
-  Best of 2020:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2020
+  Best of the 2000s:
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
     sync_mode: sync
     sort_title: ++22
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202020.png
-    summary: Rotten Tomatoes Best Movies of 2020
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2000.png
+    summary: Rotten Tomatoes Best Movies of the 2000's
     smart_label: audience_rating.desc
-  Best of 2021:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2021
+  Best of the 1990s:
+    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
     sync_mode: sync
-    sort_title: ++21
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202021.png
-    summary: Rotten Tomatoes Best Movies of 2021
+    sort_title: ++23
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/1990.png
+    summary: Rotten Tomatoes Best Movies of the 1990's
     smart_label: audience_rating.desc
-  Best of 2022:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2022
-    sync_mode: sync
-    sort_title: ++20
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Best%20Of%202022.png
-    summary: Rotten Tomatoes Best Movies of 2022
-    smart_label: audience_rating.desc
-
