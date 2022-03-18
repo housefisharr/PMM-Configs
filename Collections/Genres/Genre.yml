@@ -1,0 +1,448 @@
+######################################################
+#                       GENRES                       #
+######################################################
+
+
+collections:
+  Action:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Action.png
+    sort_title: 07-Action
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Action
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Adventure:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Adventure.png
+    sort_title: 07-Adventure
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Adventure
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Animation:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Animation.png
+    sort_title: 07-Animation
+    smart_filter: 
+      sort_by: title.asc
+      all:
+        genre: Animation
+      validate: false
+      
+  Anime:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Anime.png
+    sort_title: 07-Anime
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Anime
+      validate: false
+      
+  Apocalypse:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Apocalypse.png
+    sort_title: 07-Apocalypse
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  Biography:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Biography.png
+    sort_title: 07-Biography
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Biography
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Comedy:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Comedy.png
+    sort_title: 07-Comedy
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Comedy
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Cooking:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Cooking.png
+    sort_title: 07-Cooking
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Food
+        genre.not:
+        - Animation
+        - Children
+      
+  Crime:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Crime.png
+    sort_title: 07-Crime
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Crime
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Documentary:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Documentary.png
+    sort_title: 07-Documentary
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Documentary
+        genre.not:
+        - Animation
+        - Children
+      
+  Drama:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Drama.png
+    sort_title: 07-Drama
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Drama
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Family:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Family.png
+    sort_title: 07-Family
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Family
+      validate: false
+      
+  Fan Edit:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Fan%20Edit.png
+    sort_title: 07-Fan Edit
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  Fantasy:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Fantasy.png
+    sort_title: 07-Fantasy
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Fantasy
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Gangster:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Gangster.png
+    sort_title: 07-Gangster
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  Heist:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Heist.png
+    sort_title: 07-Heist
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  History:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/History.png
+    sort_title: 07-History
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: History
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      
+  Horror:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Horror.png
+    sort_title: 07-Horror
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Horror
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  LGBTQ+:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/LGBTQ%2B.png
+    sort_title: 07-LGBTQ+
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  Martial Arts:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Martial%20Arts.png
+    sort_title: 07-Martial Arts
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Martial Arts
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      
+  Music:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Music.png
+    sort_title: 07-Music
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Music
+        genre.not:
+        - Animation
+        - Children
+        - Family
+        - Musical
+      validate: false
+      
+  Musical:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Musical.png
+    sort_title: 07-Musical
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Musical
+        genre.not:
+        - Animation
+        - Children
+      validate: false
+      
+  Mystery:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Mystery.png
+    sort_title: 07-Mystery
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Mystery
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  News:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/News.png
+    sort_title: 07-News
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: News
+      validate: false
+      
+  Noir:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Noir.png
+    sort_title: 07-Noir
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Film-Noir
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      
+  Politics:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Politics.png
+    sort_title: 07-Politics
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Politics
+      validate: false
+      
+  Pandemic:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Pandemic.png
+    sort_title: 07-Pandemic
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  Reality:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Reality.png
+    sort_title: 07-Reality
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Reality
+        genre.not: 
+        - Animation
+        - Children
+      
+  Romance:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Romance.png
+    sort_title: 07-Romance
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Romance
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Sci-Fi:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Sci-Fi.png
+    sort_title: 07-Sci-Fi
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Science Fiction
+        genre.not:
+        - Animation
+        - Children
+        - Family
+      validate: false
+      
+  Shorts:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Short.png
+    sort_title: 07-Shorts
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Short
+      validate: false
+      
+  Soap Opera:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Soap%20Opera.png
+    sort_title: 07-Soap Opera
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Soap
+      validate: false
+      
+  Space:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Space.png
+    sort_title: 07-Space
+    smart_filter:
+      sort_by: title.asc  
+      validate: false
+      
+  Sports:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Sports.png
+    sort_title: 07-Sports
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Sport
+        genre.not:
+        - Animation
+        - Children
+      validate: false
+      
+  Spy:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Spy.png
+    sort_title: 07-Spy
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  Stand Up:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Stand%20Up.png
+    sort_title: 07-Stand Up
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  Super Hero:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Super%20Hero.png
+    sort_title: 07-Super Hero
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      
+  Thriller:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Thriller.png
+    sort_title: 07-Thriller
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Thriller
+        genre.not:
+        - Animation
+        - Children
+        - Family 
+      validate: false
+      
+  Talk Show:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Talk%20Show.png
+    sort_title: 07-Talk Show
+    smart_filter:
+      sort_by: title.asc
+      any:
+        genre: 
+        - Talk Show
+        - Talk
+      validate: false
+      
+  Travel:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Travel.png
+    sort_title: 07-Travel
+    smart_filter:
+      sort_by: title.asc
+      all: 
+        genre: Travel
+        genre.not:
+        - Animation
+        - Children
+      
+  War:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/War.png
+    sort_title: 07-War
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: War
+        genre.not:
+        - Animation
+        - Children
+        - Family 
+      validate: false
+      
+  Western:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Western.png
+    sort_title: 07-Westerns
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Western
+        genre.not:
+        - Animation
+        - Children
+        - Family
