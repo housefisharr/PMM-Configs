@@ -72,7 +72,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2000.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
-    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s?sort=popularity,asc
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
   Best of the 1990s:
     summary: Rotten Tomatoes Best Movies of the 1990's
     sort_title: ++22
