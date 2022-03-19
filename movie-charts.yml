@@ -19,7 +19,6 @@ collections:
     summary: Movies released in the past 120 days, newest first
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Released.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    collection_order: release.desc
     smart_filter:
       sort_by: added.desc
       all:
@@ -30,7 +29,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     smart_filter:
-      sort_by: release.desc
+      sort_by: added.desc
       all:
         added: 30
   IMDb Top 100 Rated Movies:
