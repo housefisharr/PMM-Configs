@@ -47,10 +47,10 @@ collections:
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
-    radarr_add_missing: true
+    radarr_add_missing: false
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
-      limit: 40
+      limit: 50
   Oscar Winning Movies:
     sort_title: ++16
     summary: Oscar winning movies
