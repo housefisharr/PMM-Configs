@@ -22,7 +22,7 @@ collections:
       type: episodes
       sort_by: release.desc
       all:
-        release: 120
+        release: 30
   Recently Added Shows:
     sort_title: ++13
     summary: TV Shows added in the past 30 days, most recent first
