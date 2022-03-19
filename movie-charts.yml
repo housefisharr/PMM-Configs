@@ -55,7 +55,7 @@ collections:
     sort_title: ++16
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    smart_label: audience_rating.desc
+    collection_order: custom
     imdb_list:
       url: https://www.imdb.com/list/ls055592025/
       limit: 100
