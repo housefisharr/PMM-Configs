@@ -33,7 +33,7 @@ collections:
       all:
         added: 30
   IMDb Top 100 Rated Movies:
-    sort_title: ++16
+    sort_title: ++14
     summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending).
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
@@ -43,7 +43,7 @@ collections:
       url: https://www.imdb.com/list/ls055592025/
       limit: 100
   IMDb Popular Movies:
-    sort_title: ++14
+    sort_title: ++15
     summary: Movies popular on IMDb over the last 30 days
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
@@ -53,7 +53,7 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 40
   Oscar Winning Movies:
-    sort_title: ++17
+    sort_title: ++16
     summary: Oscar winning movies
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Ocar.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
