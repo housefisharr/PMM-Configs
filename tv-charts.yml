@@ -5,38 +5,53 @@ templates:
     sync_mode: sync
     smart_label: random
 collections:
-  Plex Popular TV:
-    template: { name: Chart, num: 1 }
+  Plex Popular Shows:
+    sort_title: ++11
+    summary: TV popular on Plex over the last 30 days
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    collection_order: custom
     tautulli_popular:
       list_days: 30
-      list_size: 20
+      list_size: 30
       list_buffer: 20
     tautulli_watched:
       list_days: 30
-      list_size: 20
+      list_size: 30
       list_buffer: 20
-    summary: Plex Popular TV
-  Trending TV:
-    template: { name: Chart, num: 2 }
-    trakt_trending: 20
-    tmdb_trending_daily: 20
-    tmdb_trending_weekly: 20
-    summary: IMDb Trending TV over the last 30 days
-  IMDb Popular TV:
-    template: { name: Chart, num: 3 }
+  Recently Aired Episodes:
+    sort_title: ++12
+    summary: TV Episodes aired in the past 30 days, newest first
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Aired.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    smart_filter:
+      type: episodes
+      sort_by: release.desc
+      all:
+        release: 120
+  Recently Added Shows:
+    sort_title: ++13
+    summary: TV Shows added in the past 30 days, most recent first
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    smart_filter:
+      sort_by: added.desc
+      all:
+        added: 30
+  IMDb Popular Shows:
+    sort_title: ++14
+    summary: TV Shows popular on IMDb over the last 30 days
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    collection_order: custom
     tmdb_popular: 40
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
       limit: 40
-    summary: IMDb Popular TV over the last 30 days
-  Top Rated TV:
-    template: { name: Chart, num: 4 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc
-      limit: 100
-    tmdb_top_rated: 100
-    summary: IMDb Top Rated TV
-  Emmy Winning TV:
-    template: { name: Chart, num: 5 }
+  Emmy Winning Shows:
+    sort_title: ++15
+    summary: Emmy Winning Shows
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    collection_order: custom
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
-    summary: Emmy Winning TV
