@@ -21,6 +21,7 @@ collections:
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: release.desc
     smart_filter:
+      sort_by: added.desc
       all:
         release: 120
   Recently Added Movies:
@@ -28,8 +29,8 @@ collections:
     summary: Movies added in the past 30 days, most recent first
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    collection_order: added.desc
     smart_filter:
+      sort_by: release.desc
       all:
         added: 30
   IMDb Top 100 Rated Movies:
@@ -38,7 +39,6 @@ collections:
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
-    radarr_add_missing: true
     imdb_list:
       url: https://www.imdb.com/list/ls055592025/
       limit: 100
