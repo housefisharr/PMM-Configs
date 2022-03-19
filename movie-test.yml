@@ -1,0 +1,12 @@
+#Movie Charts - python plex_meta_manager.py -r
+collections:
+  IMDb Top 100 Rated Movies:
+    sort_title: ++16
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    collection_order: custom
+    radarr_add_missing: true
+    imdb_list:
+      url: https://www.imdb.com/list/ls055592025/
+      limit: 100
+    summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending).
