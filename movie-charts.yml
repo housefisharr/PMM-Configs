@@ -2,9 +2,10 @@
 collections:
   Plex Popular Movies:
     sort_title: ++11
+    summary: Movies popular on Plex over the last 30 days
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    collection_order: plays.desc
+    collection_order: custom
     tautulli_popular:
       list_days: 30
       list_size: 30
@@ -13,14 +14,13 @@ collections:
       list_days: 30
       list_size: 30
       list_buffer: 20
-    summary: Movies popular on Plex over the last 30 days
   Recently Released Movies:
     sort_title: ++12
     summary: Movies released in the past 120 days, newest first
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Released.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    collection_order: release.desc
     smart_filter:
-      sort_by: release.desc
       all:
         release: 120
   Recently Added Movies:
@@ -28,30 +28,13 @@ collections:
     summary: Movies added in the past 30 days, most recent first
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    collection_order: added.desc
     smart_filter:
-      sort_by: added.desc
       all:
         added: 30
-  IMDb Popular Movies:
-    sort_title: ++14
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    smart_label: audience_rating.desc
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
-      limit: 40
-    summary: Movies popular on IMDb over the last 30 days
-  Trakt Trending Movies:
-    sort_title: ++15
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Trending%20Movies.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    smart_label: audience_rating.desc
-    trakt_trending: 30
-    tmdb_trending_daily: 30
-    tmdb_trending_weekly: 30
-    summary: Movies trending on Trakt.tv over the last 30 days
   IMDb Top 100 Rated Movies:
     sort_title: ++16
+    summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending).
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -59,39 +42,42 @@ collections:
     imdb_list:
       url: https://www.imdb.com/list/ls055592025/
       limit: 100
-    summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending).
+  IMDb Popular Movies:
+    sort_title: ++14
+    summary: Movies popular on IMDb over the last 30 days
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    collection_order: custom
+    radarr_add_missing: true
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
+      limit: 40
   Oscar Winning Movies:
     sort_title: ++17
+    summary: Oscar winning movies
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Ocar.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    smart_label: audience_rating.desc
+    collection_order: custom
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
-    summary: Oscar winning movies
-  Best of All Time:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-top-100-movies-of-all-time
-    sort_title: ++20
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/All%20Time.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    summary: Rotten Tomatoes Best Movies of All Time
-    smart_label: audience_rating.desc
   Best of the 2010s:
-    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-2010s
-    sort_title: ++21
+    summary: Rotten Tomatoes Best Movies of the 2010's
+    sort_title: ++20
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2010.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    summary: Rotten Tomatoes Best Movies of the 2010's
-    smart_label: audience_rating.desc
+    collection_order: custom
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-2010s
   Best of the 2000s:
-    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
-    sort_title: ++22
+    sort_title: ++21
+    summary: Rotten Tomatoes Best Movies of the 2000's
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2000.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    summary: Rotten Tomatoes Best Movies of the 2000's
-    smart_label: audience_rating.desc
+    collection_order: custom
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
   Best of the 1990s:
-    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
-    sort_title: ++23
+    summary: Rotten Tomatoes Best Movies of the 1990's
+    sort_title: ++22
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/1990.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    summary: Rotten Tomatoes Best Movies of the 1990's
-    smart_label: audience_rating.desc
+    collection_order: custom
+    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
+    
