@@ -4,7 +4,6 @@ collections:
     sort_title: ++11
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    smart_label: popularity.desc
     collection_order: plays.desc
     tautulli_popular:
       list_days: 30
