@@ -34,7 +34,7 @@ collections:
         added: 30
   IMDb Top 100 Rated Movies:
     sort_title: ++14
-    summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending).
+    summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending). https://www.imdb.com/list/ls055592025/
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
