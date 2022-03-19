@@ -56,8 +56,9 @@ collections:
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     smart_label: audience_rating.desc
-    imdb_chart: top_english
-    limit: 100
+    imdb_list:
+      url: https://www.imdb.com/chart/top-english-movies
+      limit: 100
     summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending).
   Oscar Winning Movies:
     sort_title: ++17
