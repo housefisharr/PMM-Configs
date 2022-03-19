@@ -1,9 +1,4 @@
 #TV Shows - python plex_meta_manager.py -r
-templates:
-  Chart:
-    sort_title: +1_<<num>> <<collection_name>>
-    sync_mode: sync
-    smart_label: random
 collections:
   Plex Popular Shows:
     sort_title: ++11
@@ -41,7 +36,7 @@ collections:
   IMDb Popular Shows:
     sort_title: ++14
     summary: TV Shows popular on IMDb over the last 30 days
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
     collection_order: custom
     imdb_list:
@@ -50,7 +45,7 @@ collections:
   Emmy Winning Shows:
     sort_title: ++15
     summary: Emmy Winning Shows
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Emmy.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
     collection_order: custom
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
