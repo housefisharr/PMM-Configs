@@ -1,0 +1,47 @@
+#Movie Charts - python plex_meta_manager.py -r
+collections:
+  Plex Popular Movies:
+    sort_title: ++11
+    summary: Movies popular on Plex over the last 30 days
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    collection_order: custom
+    tautulli_popular:
+      list_days: 30
+      list_size: 30
+      list_buffer: 20
+  Recently Released Movies:
+    sort_title: ++12
+    summary: Movies released in the past 120 days, newest first
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Released.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    smart_filter:
+      sort_by: release.desc
+      all:
+        release: 120
+  Recently Added Movies:
+    sort_title: ++13
+    summary: Movies added in the past 30 days, most recent first
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    smart_filter:
+      sort_by: added.desc
+      all:
+        added: 30
+  #IMDb Top 100 Rated Movies:
+    #sort_title: ++14
+    #summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending). https://www.imdb.com/list/ls055592025/
+    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
+    #url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    #collection_order: custom
+    #imdb_list:
+      #url: https://www.imdb.com/list/ls055592025/
+      #limit: 100
+  Oscar Winning Movies:
+    sort_title: ++16
+    summary: Oscar winning movies
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Ocar.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    collection_order: custom
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+    
