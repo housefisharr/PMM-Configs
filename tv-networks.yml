@@ -66,5 +66,3 @@ collections:
     template: { name: network, network: "68, 160, 4888", poster: /config/posters/networks/TBS.png }
   TNT:
     template: { name: network, network: 41, poster: /config/posters/networks/TNT.png }
-  YouTube:
-    template: { name: network, network: "247, 1436, 4869", poster: /config/posters/networks/YouTube.png }
