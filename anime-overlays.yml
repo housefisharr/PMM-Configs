@@ -33,12 +33,10 @@ collections:
         hdr: true
     filters:
       filepath.not: DoVi
-      resolution: 1080p
     item_overlay: HDR
   1080p HDR-DV TV Shows:
     build_collection: false
     plex_all: true
     filters:
       filepath: DoVi
-      resolution: 1080p
     item_overlay: HDR-DV
