@@ -1,31 +1,5 @@
 #Movie Overlays - python plex_meta_manager.py -r
 collections:
-  4K HDR TV Shows:
-    build_collection: false
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: true
-    filters:
-      filepath.not: DoVi
-    item_overlay: 4K-HDR
-  4K HDR-DV TV Shows:
-    build_collection: false
-    plex_search:
-      all:
-        resolution: 4K
-    filters:
-      filepath: DoVi
-    item_overlay: 4K-HDR-DV
-  4K No HDR TV Shows: 
-    build_collection: false
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: false
-    filters:
-      filepath.not: DoVi
-    item_overlay: 4K-noHDR
   1080p HDR TV Shows:
     build_collection: false
     plex_search:
