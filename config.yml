@@ -11,9 +11,8 @@ libraries:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-networks.yml
   Anime:
     metadata_path:
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-overlays.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-networks.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/anime-charts.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/anime-overlays.yml
   3D Movies:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-charts.yml
