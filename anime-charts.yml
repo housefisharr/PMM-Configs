@@ -1,0 +1,31 @@
+#TV Shows - python plex_meta_manager.py -r
+collections:
+  Plex Popular Shows:
+    sort_title: ++11
+    summary: TV popular on Plex over the last 30 days
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    collection_order: custom
+    tautulli_popular:
+      list_days: 30
+      list_size: 30
+      list_buffer: 20
+  Recently Aired Episodes:
+    sort_title: ++12
+    summary: TV Episodes aired in the past 90 days, newest first
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Aired.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    smart_filter:
+      type: episodes
+      sort_by: release.desc
+      all:
+        release: 90
+  Recently Added Shows:
+    sort_title: ++13
+    summary: TV Shows added in the past 30 days, most recent first
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    smart_filter:
+      sort_by: added.desc
+      all:
+        added: 30
