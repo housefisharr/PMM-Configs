@@ -12,7 +12,7 @@ collections:
     filters:
       filepath.not: DoVi
     item_overlay: 4K-HDR    
-    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
+    schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
   4K HDR-DV Movies:
     sort_title: ++92
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
@@ -24,6 +24,7 @@ collections:
     filters:
       filepath: DoVi
     item_overlay: 4K-HDR-DV
+    hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
   4K No HDR Movies: 
     sort_title: ++93
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
@@ -36,7 +37,7 @@ collections:
     filters:
       filepath.not: DoVi
     item_overlay: 4K-noHDR
-    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
+    schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
   1080p HDR Movies:
     sort_title: ++94
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
@@ -49,7 +50,7 @@ collections:
       filepath.not: DoVi
       resolution.not: 4K
     item_overlay: HDR
-    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
+    schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
   1080p HDR-DV Movies:
     sort_title: ++95
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
@@ -60,4 +61,4 @@ collections:
       filepath: DoVi
       resolution.not: 4K
     item_overlay: HDR-DV
-    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
+    schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
