@@ -1,4 +1,4 @@
-#TV Shows - python plex_meta_manager.py -r
+#Anime Shows - python plex_meta_manager.py -r
 collections:
   Plex Popular Shows:
     sort_title: ++11

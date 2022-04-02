@@ -1,4 +1,4 @@
-#Movie Charts - python plex_meta_manager.py -r
+#3D Movie Charts - python plex_meta_manager.py -r
 collections:
   Plex Popular Movies:
     sort_title: ++11
@@ -28,15 +28,6 @@ collections:
       sort_by: added.desc
       all:
         added: 30
-  #IMDb Top 100 Rated Movies:
-    #sort_title: ++14
-    #summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending). https://www.imdb.com/list/ls055592025/
-    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
-    #url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    #collection_order: custom
-    #imdb_list:
-      #url: https://www.imdb.com/list/ls055592025/
-      #limit: 100
   Oscar Winning Movies:
     sort_title: ++16
     summary: Oscar winning movies
@@ -44,4 +35,3 @@ collections:
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
-    

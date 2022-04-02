@@ -1,7 +1,10 @@
-#Movie Overlays - python plex_meta_manager.py -r
+#TV Overlays - python plex_meta_manager.py -r
 collections:
   4K HDR TV Shows:
-    build_collection: false
+    sort_title: ++91
+    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
+    build_collection: true
     plex_search:
       all:
         resolution: 4K
@@ -9,16 +12,24 @@ collections:
     filters:
       filepath.not: DoVi
     item_overlay: 4K-HDR
+    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
   4K HDR-DV TV Shows:
-    build_collection: false
+    sort_title: ++92
+    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
+    build_collection: true
     plex_search:
       all:
         resolution: 4K
     filters:
       filepath: DoVi
     item_overlay: 4K-HDR-DV
-  4K No HDR TV Shows: 
-    build_collection: false
+    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
+  4K No HDR TV Shows:
+    sort_title: ++93
+    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
+    build_collection: true
     plex_search:
       all:
         resolution: 4K
@@ -26,8 +37,12 @@ collections:
     filters:
       filepath.not: DoVi
     item_overlay: 4K-noHDR
+    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
   1080p HDR TV Shows:
-    build_collection: false
+    sort_title: ++94
+    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
+    build_collection: true
     plex_search:
       all:
         hdr: true
@@ -35,10 +50,15 @@ collections:
       filepath.not: DoVi
       resolution.not: 4K
     item_overlay: HDR
+    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
   1080p HDR-DV TV Shows:
-    build_collection: false
+    sort_title: ++95
+    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
+    build_collection: true
     plex_all: true
     filters:
       filepath: DoVi
       resolution.not: 4K
     item_overlay: HDR-DV
+    schedule: hourly(6), hourly(8), hourly(10), hourly(12), hourly(14), hourly(16), hourly(18), hourly(20), hourly(22), hourly(24), hourly(0), hourly(2), hourly(4)
