@@ -40,10 +40,10 @@ collections:
   IMDb Popular Movies:
     sort_title: ++15
     summary: Movies popular on IMDb over the last 30 days
+    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
-    radarr_add_missing: false
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 50
@@ -56,8 +56,9 @@ collections:
     collection_order: custom
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
   Best of the 2010s:
-    summary: Rotten Tomatoes Best Movies of the 2010's
     sort_title: ++20
+    summary: Rotten Tomatoes Best Movies of the 2010's
+    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2010.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -65,13 +66,15 @@ collections:
   Best of the 2000s:
     sort_title: ++21
     summary: Rotten Tomatoes Best Movies of the 2000's
+    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2000.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
   Best of the 1990s:
-    summary: Rotten Tomatoes Best Movies of the 1990's
     sort_title: ++22
+    summary: Rotten Tomatoes Best Movies of the 1990's
+    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/1990.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
