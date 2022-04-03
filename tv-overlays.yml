@@ -46,9 +46,9 @@ collections:
     plex_search:
       all:
         hdr: true
+        resolution.not: 4K
     filters:
       filepath.not: DoVi
-      resolution.not: 4K
     item_overlay: HDR
     #schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
   1080p HDR-DV TV Shows:
