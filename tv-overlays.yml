@@ -45,15 +45,5 @@ collections:
         hdr: true
     filters:
       resolution: 1080p
-      filepath.not: DoVi
+      filepath.not: tv/4k
     item_overlay: HDR
-  1080p HDR-DV TV Shows:
-    sort_title: ++95
-    #url_poster: https://web.com/image.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: false
-    plex_all: true
-    filters:
-      resolution: 1080p
-      filepath: DoVi
-    item_overlay: HDR-DV
