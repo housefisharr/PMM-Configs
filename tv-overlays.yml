@@ -44,7 +44,7 @@ collections:
       all:
         hdr: true
     filters:
-      resolution.not: 4K
+      resolution: 1080p
       filepath.not: DoVi
     item_overlay: HDR
   1080p HDR-DV TV Shows:
@@ -54,6 +54,6 @@ collections:
     build_collection: false
     plex_all: true
     filters:
-      resolution.not: 4K
+      resolution: 1080p
       filepath: DoVi
     item_overlay: HDR-DV
