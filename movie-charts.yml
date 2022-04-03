@@ -29,15 +29,22 @@ collections:
       all:
         added: 60
       limit: 100
-  IMDb Top 100 Movies of All Time:
+  #IMDb Top 100 Movies of All Time:
+    #sort_title: ++14
+    #summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English, sorted by highest IMDb rating first. https://www.imdb.com/list/ls055592025/
+    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
+    #url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    #collection_order: custom
+    #imdb_list:
+      #url: https://www.imdb.com/list/ls055592025/
+      #limit: 100
+  IMDB Top 250:
     sort_title: ++14
-    summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English, sorted by highest IMDb rating first. https://www.imdb.com/list/ls055592025/
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
+    summary: Top 250 rated movies on IMDb with rating count at least 50,000 and in English, sorted by highest IMDb rating first. https://www.imdb.com/list/ls055592025/
+    url_poster: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Posters/Charts/Top_250.JPG
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
-    imdb_list:
-      url: https://www.imdb.com/list/ls055592025/
-      limit: 100
+    imdb_chart: top_movies
   IMDb Popular Movies:
     sort_title: ++15
     summary: Movies popular on IMDb over the last 30 days, most popular first.
