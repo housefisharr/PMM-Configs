@@ -42,7 +42,6 @@ collections:
   IMDb Popular Movies:
     sort_title: ++15
     summary: Movies popular on IMDb over the last 30 days.
-    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -52,7 +51,6 @@ collections:
   Oscar Winning Movies:
     sort_title: ++16
     summary: Oscar winning movies
-    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Ocar.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -60,7 +58,6 @@ collections:
   Best of 2010s:
     sort_title: ++20
     summary: Rotten Tomatoes Best Movies of the 2010's.
-    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2010.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -68,7 +65,6 @@ collections:
   Best of 2000s:
     sort_title: ++21
     summary: Rotten Tomatoes Best Movies of the 2000's.
-    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2000.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -76,7 +72,6 @@ collections:
   Best of 1990s:
     sort_title: ++22
     summary: Rotten Tomatoes Best Movies of the 1990's.
-    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/1990.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom

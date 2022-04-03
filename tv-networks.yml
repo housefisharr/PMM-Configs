@@ -6,7 +6,6 @@ templates:
     tmdb_network: <<network>>
     file_poster: <<poster>>
     sort_title: +25_<<collection_name>>
-    sync_mode: sync
 collections:
   A&E:
     template: { name: network, network: "129, 2639, 3688", poster: /config/posters/networks/A&E.png }

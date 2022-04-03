@@ -33,7 +33,6 @@ collections:
   IMDb Popular Shows:
     sort_title: ++14
     summary: Shows popular on IMDb over the last 30 days.
-    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Shows.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
     collection_order: custom
@@ -43,7 +42,6 @@ collections:
   Emmy Winning Shows:
     sort_title: ++15
     summary: Emmy Winning Shows
-    show_missing: false
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Emmy.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
     collection_order: custom
