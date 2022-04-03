@@ -52,8 +52,9 @@ collections:
     #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
     build_collection: false
-    plex_all: true
+    plex_search:
+      all:
+        resolution.not: 4K
     filters:
-      filepath: DoVi
-      resolution.not: 4K
+      filepath: DoVi      
     item_overlay: HDR-DV
