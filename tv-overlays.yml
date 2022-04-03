@@ -44,6 +44,5 @@ collections:
       all:
         hdr: true
     filters:
-      resolution: 1080p
       filepath.not: tv/4k
     item_overlay: HDR
