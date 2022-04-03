@@ -2,7 +2,7 @@
 collections:
   4K HDR-DV TV Shows:
     sort_title: ++92
-    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
     build_collection: false
     plex_search:
@@ -10,10 +10,10 @@ collections:
         resolution: 4K
     filters:
       filepath: DoVi
-    item_overlay: 4K-HDR-DV    
+    item_overlay: 4K-HDR-DV
   4K No HDR TV Shows:
     sort_title: ++93
-    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
     build_collection: false
     plex_search:
@@ -22,10 +22,10 @@ collections:
         hdr: false
     filters:
       filepath.not: DoVi
-    item_overlay: 4K-noHDR    
+    item_overlay: 4K-noHDR
   4K HDR TV Shows:
     sort_title: ++91
-    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
     build_collection: true
     plex_search:
@@ -34,10 +34,10 @@ collections:
         hdr: true
     filters:
       filepath.not: DoVi
-    item_overlay: 4K-HDR    
+    item_overlay: 4K-HDR
   1080p HDR TV Shows:
     sort_title: ++94
-    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
     build_collection: false
     plex_search:
@@ -46,10 +46,10 @@ collections:
     filters:
       filepath.not: DoVi
       resolution.not: 4K
-    item_overlay: HDR    
+    item_overlay: HDR
   1080p HDR-DV TV Shows:
     sort_title: ++95
-    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
     build_collection: false
     plex_all: true
@@ -57,4 +57,3 @@ collections:
       filepath: DoVi
       resolution.not: 4K
     item_overlay: HDR-DV
-    
