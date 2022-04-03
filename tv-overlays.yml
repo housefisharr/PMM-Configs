@@ -1,21 +1,5 @@
 #TV Overlays - python plex_meta_manager.py -r
 collections:
-<<<<<<< HEAD
-  4K HDR TV Shows:
-    sort_title: ++91
-    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: false
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: true
-    filters:
-      filepath.not: DoVi
-    item_overlay: 4K-HDR
-    schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
-=======
->>>>>>> 8b78158577dc1a7f5ab3304b40b61f6030a4192a
   4K HDR-DV TV Shows:
     sort_title: ++92
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
