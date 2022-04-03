@@ -1,18 +1,5 @@
 #Movie Overlays - python plex_meta_manager.py -r
 collections:
-  4K HDR Movies:
-    sort_title: ++91
-    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    build_collection: false
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: true
-    filters:
-      filepath.not: DoVi
-    item_overlay: 4K-HDR    
-    #schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
   4K HDR-DV Movies:
     sort_title: ++92
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
@@ -23,8 +10,7 @@ collections:
         resolution: 4K
     filters:
       filepath: DoVi
-    item_overlay: 4K-HDR-DV
-    #schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
+    item_overlay: 4K-HDR-DV    
   4K No HDR Movies: 
     sort_title: ++93
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
@@ -37,7 +23,18 @@ collections:
     filters:
       filepath.not: DoVi
     item_overlay: 4K-noHDR
-    #schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
+  4K HDR Movies:
+    sort_title: ++91
+    #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    build_collection: false
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: true
+    filters:
+      filepath.not: DoVi
+    item_overlay: 4K-HDR
   1080p HDR Movies:
     sort_title: ++94
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
@@ -49,8 +46,7 @@ collections:
     filters:
       filepath.not: DoVi
       resolution.not: 4K
-    item_overlay: HDR
-    #schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
+    item_overlay: HDR    
   1080p HDR-DV Movies:
     sort_title: ++95
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
@@ -60,5 +56,4 @@ collections:
     filters:
       filepath: DoVi
       resolution.not: 4K
-    item_overlay: HDR-DV
-    #schedule: hourly(6), hourly(9), hourly(12), hourly(15), hourly(18), hourly(21), hourly(24), hourly(3)
+    item_overlay: HDR-DV    
