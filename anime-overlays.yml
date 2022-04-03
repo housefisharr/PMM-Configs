@@ -1,40 +1,5 @@
 #Anime Overlays - python plex_meta_manager.py -r
 collections:
-  4K HDR-DV TV Shows:
-    sort_title: ++92
-    #url_poster: https://web.com/image.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: false
-    plex_search:
-      all:
-        resolution: 4K
-    filters:
-      filepath: DoVi
-    item_overlay: 4K-HDR-DV
-  4K No HDR TV Shows:
-    sort_title: ++93
-    #url_poster: https://web.com/image.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: false
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: false
-    filters:
-      filepath.not: DoVi
-    item_overlay: 4K-noHDR
-  4K HDR TV Shows:
-    sort_title: ++91
-    #url_poster: https://web.com/image.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: true
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: true
-    filters:
-      filepath.not: DoVi
-    item_overlay: 4K-HDR
   1080p HDR TV Shows:
     sort_title: ++94
     #url_poster: https://web.com/image.png
