@@ -2,7 +2,7 @@
 collections:
   Plex Popular Movies:
     sort_title: ++11
-    summary: Movies popular on Plex over the last 30 days, I think sorted by number of views, most viewed first.
+    summary: Movies popular on Plex over the last 30 days, most popular first.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -19,7 +19,7 @@ collections:
       sort_by: release.desc
       all:
         release: 120
-        limit: 1200
+        limit: 100
   Recently Added Movies:
     sort_title: ++13
     summary: Movies added to Plex in the past 60 days, newest first.
@@ -32,7 +32,7 @@ collections:
         limit: 100
   IMDb Top 100 Movies of All Time:
     sort_title: ++14
-    summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English (Sorted by IMDb rating descending). https://www.imdb.com/list/ls055592025/
+    summary: Top 100 rated movies on IMDb with rating count at least 50,000 and in English, sorted by highest IMDb rating first. https://www.imdb.com/list/ls055592025/
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Top%20100%20All%20Time.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -41,7 +41,7 @@ collections:
       limit: 100
   IMDb Popular Movies:
     sort_title: ++15
-    summary: Movies popular on IMDb over the last 30 days.
+    summary: Movies popular on IMDb over the last 30 days, most popular first.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
@@ -50,7 +50,7 @@ collections:
       limit: 50
   Oscar Winning Movies:
     sort_title: ++16
-    summary: Oscar winning movies
+    summary: Oscar Winning Movies.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Ocar.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
