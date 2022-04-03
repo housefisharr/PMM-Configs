@@ -9,4 +9,3 @@ collections:
       filepath: movies/3D
     item_overlay: 3D
     build_collection: true
-    revert_overlay: true
