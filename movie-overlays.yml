@@ -4,7 +4,8 @@ collections:
     sort_title: ++92
     #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    build_collection: false
+    build_collection: true
+    revert_overlay: true
     plex_search:
       all:
         resolution: 4K
@@ -15,7 +16,8 @@ collections:
     sort_title: ++93
     #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    build_collection: false
+    build_collection: true
+    revert_overlay: true
     plex_search:
       all:
         resolution: 4K
@@ -27,7 +29,8 @@ collections:
     sort_title: ++91
     #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    build_collection: false
+    build_collection: true
+    revert_overlay: true
     plex_search:
       all:
         resolution: 4K
@@ -39,7 +42,8 @@ collections:
     sort_title: ++94
     #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    build_collection: false
+    build_collection: true
+    revert_overlay: true
     plex_search:
       all:
         hdr: true
@@ -51,7 +55,8 @@ collections:
     sort_title: ++95
     #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    build_collection: false
+    build_collection: true
+    revert_overlay: true
     plex_all: true
     filters:
       filepath: DoVi
