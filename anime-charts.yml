@@ -10,22 +10,12 @@ collections:
       list_days: 30
       list_size: 30
       list_buffer: 20
-  Recently Aired Episodes:
-    sort_title: ++12
-    summary: TV Episodes aired in the past 90 days, newest first
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Aired.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
-    smart_filter:
-      type: episodes
-      sort_by: release.desc
-      all:
-        release: 90
   Recently Added Shows:
     sort_title: ++13
-    summary: TV Shows added in the past 30 days, most recent first
+    summary: TV Shows added in the past 120 days, most recent first
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
     smart_filter:
       sort_by: added.desc
       all:
-        added: 30
+        added: 120

@@ -4,7 +4,7 @@ collections:
     sort_title: ++91
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: true
+    build_collection: false
     plex_search:
       all:
         resolution: 4K
@@ -17,7 +17,7 @@ collections:
     sort_title: ++92
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: true
+    build_collection: false
     plex_search:
       all:
         resolution: 4K
@@ -29,7 +29,7 @@ collections:
     sort_title: ++93
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: true
+    build_collection: false
     plex_search:
       all:
         resolution: 4K
@@ -42,7 +42,7 @@ collections:
     sort_title: ++94
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: true
+    build_collection: false
     plex_search:
       all:
         hdr: true
@@ -55,7 +55,7 @@ collections:
     sort_title: ++95
     #url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: true
+    build_collection: false
     plex_all: true
     filters:
       filepath: DoVi

@@ -21,13 +21,13 @@ collections:
         release: 1825
   Recently Added Movies:
     sort_title: ++13
-    summary: Movies added in the past 30 days, most recent first
+    summary: Movies added in the past 120 days, most recent first
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     smart_filter:
       sort_by: added.desc
       all:
-        added: 30
+        added: 120
   Oscar Winning Movies:
     sort_title: ++16
     summary: Oscar winning movies

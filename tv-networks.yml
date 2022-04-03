@@ -5,7 +5,7 @@ templates:
       - network
     tmdb_network: <<network>>
     file_poster: <<poster>>
-    sort_title: +2_<<collection_name>>
+    sort_title: +25_<<collection_name>>
     sync_mode: sync
 collections:
   A&E:

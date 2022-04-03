@@ -55,7 +55,7 @@ collections:
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
-  Best of the 2010s:
+  Best of 2010s:
     sort_title: ++20
     summary: Rotten Tomatoes Best Movies of the 2010's
     show_missing: false
@@ -63,7 +63,7 @@ collections:
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-2010s
-  Best of the 2000s:
+  Best of 2000s:
     sort_title: ++21
     summary: Rotten Tomatoes Best Movies of the 2000's
     show_missing: false
@@ -71,7 +71,7 @@ collections:
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
-  Best of the 1990s:
+  Best of 1990s:
     sort_title: ++22
     summary: Rotten Tomatoes Best Movies of the 1990's
     show_missing: false
