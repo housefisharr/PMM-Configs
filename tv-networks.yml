@@ -45,13 +45,11 @@ collections:
   National Geographic:
     template: { name: network, network: "43, 799, 1756, 1825, 3355, 4293, 4476", poster: /config/posters/networks/National Geographic.png }
   NBC:
-    template: { name: network, network: 6, poster: /config/posters/networks/NBC.png }
+    template: { name: network, network: "6, 3353", poster: /config/posters/networks/NBC.png }
   Netflix:
     template: { name: network, network: 213, poster: /config/posters/networks/Netflix.png }
   PBS:
     template: { name: network, network: 14, poster: /config/posters/networks/PBS.png }
-  Peacock:
-    template: { name: network, network: 3353, poster: /config/posters/networks/Peacock.png }
   Prime Video:
     template: { name: network, network: 1024, poster: /config/posters/networks/Prime Video.png }
   Showtime:
