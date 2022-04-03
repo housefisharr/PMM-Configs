@@ -2,12 +2,12 @@
 collections:
   Plex Popular Anime:
     sort_title: ++11
-    summary: Anime popular on Plex over the last 30 days.
+    summary: Anime popular on Plex over the last 90 days.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
     collection_order: custom
     tautulli_popular:
-      list_days: 30
+      list_days: 90
       list_size: 30
       list_buffer: 20
   Recently Aired Anime:
@@ -20,7 +20,7 @@ collections:
         episode_air_date: 60
       type: episodes
       sort_by: release.desc
-      limit: 120
+      limit: 100
   Recently Added Anime:
     sort_title: ++13
     summary: Anime added in the past 120 days, newest first.
@@ -30,4 +30,4 @@ collections:
       sort_by: added.desc
       all:
         added: 120
-        limit: 100
+      limit: 100

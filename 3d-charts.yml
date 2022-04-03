@@ -19,7 +19,7 @@ collections:
       sort_by: release.desc
       all:
         release: 1825
-        limit: 100
+      limit: 100
   Recently Added 3D Movies:
     sort_title: ++13
     summary: 3D Movies added in the past 6 months, newest first.
@@ -29,7 +29,7 @@ collections:
       sort_by: added.desc
       all:
         added: 180
-        limit: 100
+      limit: 100
   Oscar Winning 3D Movies:
     sort_title: ++16
     summary: Oscar Winning 3D Movies.

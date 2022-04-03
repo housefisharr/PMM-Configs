@@ -27,7 +27,7 @@ collections:
     sort_title: ++91
     #url_poster: https://web.com/image.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.png
-    build_collection: true
+    build_collection: false
     plex_search:
       all:
         resolution: 4K
