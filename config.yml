@@ -3,11 +3,13 @@ libraries:
   Movies:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-overlays.yml
+      - url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Overlays/Configs/Movies/HD%2BIMDB.yml
+      - url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Overlays/Configs/Movies/UHD%2BDV.yml
   TV Shows:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-overlays.yml
+      - url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Overlays/Configs/TV/HD.yml
+      - url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Overlays/Configs/TV/UHD.yml
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-networks.yml
   Anime:
     metadata_path:
