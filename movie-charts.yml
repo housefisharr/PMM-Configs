@@ -3,7 +3,7 @@ collections:
   Plex Popular Movies:
     sort_title: ++11
     summary: Movies popular on Plex over the last 30 days, most popular first.
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     tautulli_popular:

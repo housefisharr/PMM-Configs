@@ -1,0 +1,9 @@
+#TV Shows - python plex_meta_manager.py -r
+collections:
+  Emmy Winning Shows:
+    sort_title: ++15
+    summary: Emmy Winning Shows.
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Emmy.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    collection_order: custom
+    imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_episode,tv_special,tv_miniseries,video,tv_short,podcast_series,podcast_episode,music_video&groups=emmy_winner&sort=alpha,asc

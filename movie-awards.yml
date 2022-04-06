@@ -1,0 +1,9 @@
+#Movie Awards - python plex_meta_manager.py -r
+collections:
+  Oscar Winning Movies:
+    sort_title: ++16
+    summary: Oscar Winning Movies.
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Awards/Ocar.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
+    collection_order: custom
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner

@@ -3,7 +3,7 @@ collections:
   Plex Popular Shows:
     sort_title: ++11
     summary: Shows popular on Plex over the last 30 days.
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Plex%20Popular.png
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Shows.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
     collection_order: custom
     tautulli_popular:
