@@ -1,24 +1,22 @@
 #python plex_meta_manager.py -r
 libraries:
-  Movies:
+  3D Movies:
     metadata_path:
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-charts.yml
-      - url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Overlays/Configs/Movies/HD%2BIMDB.yml
-      - url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Overlays/Configs/Movies/UHD%2BDV.yml
-  TV Shows:
-    metadata_path:
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-charts.yml
-      - url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Overlays/Configs/TV/HD.yml
-      - url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Overlays/Configs/TV/UHD.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-networks.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-awards.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-charts.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-overlays.yml
   Anime:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/anime-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/anime-overlays.yml
-  3D Movies:
+  Movies:
     metadata_path:
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-overlays.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-awards.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-charts.yml
+  TV Shows:
+    metadata_path:
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-awards.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-charts.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-networks.yml
 settings:
   cache: true
   cache_expiration: 60
