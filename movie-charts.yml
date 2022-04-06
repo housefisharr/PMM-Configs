@@ -36,15 +36,6 @@ collections:
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     imdb_chart: top_movies
-  IMDb Popular Movies:
-    sort_title: ++15
-    summary: Movies popular on IMDb over the last 30 days, most popular first.
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
-    collection_order: custom
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
-      limit: 50
   Oscar Winning Movies:
     sort_title: ++16
     summary: Oscar Winning Movies.
