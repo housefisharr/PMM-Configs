@@ -1,3 +1,5 @@
+# python plex_meta_manager.py -r
+
 # PMM-Configs
 
 Scripts to create Plex Collections
