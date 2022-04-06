@@ -1,0 +1,7 @@
+#OLD - python plex_meta_manager.py -r
+collections:
+  IMAX:
+    plex_all:
+    filters:
+      filepath: omax
+    build_collection: true
