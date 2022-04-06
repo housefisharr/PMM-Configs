@@ -30,7 +30,7 @@ collections:
       all:
         added: 60
       limit: 100
-  IMDB Top 250:
+  IMDB Top 250 Movies:
     sort_title: ++14
     summary: Top 250 rated movies on IMDb with rating count at least 50,000 and in English, sorted by highest IMDb rating first. https://www.imdb.com/list/ls055592025/
     url_poster: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Posters/Charts/Top_250.JPG
