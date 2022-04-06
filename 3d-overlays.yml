@@ -8,4 +8,4 @@ collections:
     filters:
       filepath: movies/3D
     item_overlay: 3D
-    build_collection: true
+    build_collection: false

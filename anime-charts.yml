@@ -20,7 +20,7 @@ collections:
         episode_air_date: 60
       type: episodes
       sort_by: release.desc
-      limit: 100
+      limit: 120
   Recently Added Anime:
     sort_title: ++13
     summary: Anime added in the past 120 days, newest first.

@@ -2,13 +2,13 @@
 collections:
   Plex Popular 3D Movies:
     sort_title: ++11
-    summary: 3D Movies popular on Plex over the last 30 days.
+    summary: 3D Movies popular on Plex over the last 60 days.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Movies.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     tautulli_popular:
-      list_days: 30
-      list_size: 30
+      list_days: 60
+      list_size: 50
       list_buffer: 20
   Recently Released 3D Movies:
     sort_title: ++12
