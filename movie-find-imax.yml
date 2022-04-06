@@ -1,7 +1,7 @@
 #OLD - python plex_meta_manager.py -r
 collections:
   IMAX:
-    plex_all:
+    plex_all: true
     filters:
-      filepath: omax
+      filepath: imax
     build_collection: true
