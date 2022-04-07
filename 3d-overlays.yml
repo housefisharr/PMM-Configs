@@ -1,4 +1,4 @@
-#3D Movie Overlays - python plex_meta_manager.py -r
+#3D Movie Overlays - python plex_meta_manager.py -r test
 collections:
   3D Movies:
     sort_title: ++92
