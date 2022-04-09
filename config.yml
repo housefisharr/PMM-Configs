@@ -4,7 +4,6 @@ libraries:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-awards.yml
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-overlays.yml
   Anime:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/anime-charts.yml
