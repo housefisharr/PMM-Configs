@@ -1,18 +1,5 @@
 #TV Shows - python plex_meta_manager.py -r
 collections:
-  Plex Popular Shows:
-    sort_title: ++11
-    summary: Shows popular on Plex over the last 30 days.
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Shows.png
-    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
-    collection_order: custom
-    visible_library: true
-    visible_home: true
-    visible_shared: true
-    tautulli_popular:
-      list_days: 30
-      list_size: 30
-      list_buffer: 20
   Recently Aired Episodes:
     sort_title: ++12
     summary: Episodes aired in the past 60 days, newest first.
@@ -40,3 +27,16 @@ collections:
         added: 30
       sort_by: added.desc
       limit: 50
+  Plex Popular Shows:
+    sort_title: ++11
+    summary: Shows popular on Plex over the last 30 days.
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Shows.png
+    url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    collection_order: custom
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    tautulli_popular:
+      list_days: 30
+      list_size: 30
+      list_buffer: 20
