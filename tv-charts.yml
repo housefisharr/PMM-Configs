@@ -6,6 +6,9 @@ collections:
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Popular%20Shows.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
     collection_order: custom
+    visible_library: true
+    visible_home: true
+    visible_shared: true
     tautulli_popular:
       list_days: 30
       list_size: 30
@@ -15,6 +18,9 @@ collections:
     summary: Episodes aired in the past 60 days, newest first.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Aired.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    visible_library: true
+    visible_home: true
+    visible_shared: true
     smart_filter:
       all:
         episode_air_date: 60
@@ -26,6 +32,9 @@ collections:
     summary: Shows added in the past 30 days, newest first.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Added.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
+    visible_library: true
+    visible_home: true
+    visible_shared: true
     smart_filter:
       all:
         added: 30
