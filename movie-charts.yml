@@ -36,7 +36,7 @@ collections:
     visible_home: true
     visible_shared: true
     tautulli_popular:
-      list_days: 60
+      list_days: 30
       list_size: 50
       list_buffer: 20
   IMDB Top 250 Movies:
