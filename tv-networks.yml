@@ -1,7 +1,7 @@
 #TV Networks - python plex_meta_manager.py -r
 templates:
   network:
-    visible_library: false
+    visible_library: true
     optional:
       - network
     tmdb_network: <<network>>
