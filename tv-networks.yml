@@ -53,8 +53,6 @@ collections:
     template: { name: network, network: 1024, poster: /config/posters/networks/Prime Video.png }
   Showtime:
     template: { name: network, network: 67, poster: /config/posters/networks/Showtime.png }
-  Shudder:
-    template: { name: network, network: 2949, poster: /config/posters/networks/Shudder.png }
   Starz:
     template: { name: network, network: "318, 758, 4906", poster: /config/posters/networks/Starz.png }
   Syfy:
