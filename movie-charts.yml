@@ -47,21 +47,21 @@ collections:
     collection_order: custom
     imdb_chart: top_movies
   Best of 2010s:
-    sort_title: ++20
+    sort_title: ZZZZZ++20
     summary: Rotten Tomatoes Best Movies of the 2010's.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2010.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-2010s
   Best of 2000s:
-    sort_title: ++21
+    sort_title: ZZZZZZZZZZ++21
     summary: Rotten Tomatoes Best Movies of the 2000's.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/2000.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
     collection_order: custom
     trakt_list: https://trakt.tv/users/hdlists/lists/best-of-the-00s
   Best of 1990s:
-    sort_title: ++22
+    sort_title: ZZZZZ++22
     summary: Rotten Tomatoes Best Movies of the 1990's.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Decades/1990.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/movie.png
