@@ -51,7 +51,7 @@ collections:
   PBS:
     template: { name: network, network: 14, poster: /config/posters/networks/PBS.png }
   Prime Video:
-    template: { name: network, network: 1024, poster: /config/posters/networks/Prime Video.png }
+    template: { name: network, network: 1024, poster: /config/posters/networks/Amazon.png }
   Showtime:
     template: { name: network, network: 67, poster: /config/posters/networks/Showtime.png }
   Starz:
