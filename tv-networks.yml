@@ -33,7 +33,7 @@ collections:
   Disney+:
     template: { name: network, network: "2739, 2919", poster: /config/posters/networks/Disney+.png }
   Fox:
-    template: { name: network, network: 19, poster: /config/posters/networks/Fox.png }
+    template: { name: network, network: 19, poster: /config/posters/networks/FOX.png }
   FX:
     template: { name: network, network: 88, poster: /config/posters/networks/FX.png }
   HBO:
@@ -57,7 +57,7 @@ collections:
   Starz:
     template: { name: network, network: "318, 758, 4906", poster: /config/posters/networks/Starz.png }
   Syfy:
-    template: { name: network, network: "77, 3701", poster: /config/posters/networks/Syfy.png }
+    template: { name: network, network: "77, 3701", poster: /config/posters/networks/SYFY.png }
   TBS:
     template: { name: network, network: "68, 160, 4888", poster: /config/posters/networks/TBS.png }
   TNT:
