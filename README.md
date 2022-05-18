@@ -1,9 +1,7 @@
-# python ./config/rcm/rcm.py ./config/rcm -f -e
-# python ./config/chazlarson/reset-posters.py
 # PMM-Configs
 
 Scripts to create Plex Collections
-posters taken from zluckytraveler, overlays from bradmartin
+https://github.com/meisnate12/Plex-Meta-Manager
 
 ## How to run
 ### PMM Default
