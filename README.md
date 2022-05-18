@@ -15,3 +15,8 @@ python plex_meta_manager.py -r
 ```shell
 python ./config/rcm/rcm.py ./config/rcm -f -e
 ```
+### ChazLarson's Reset Posters
+Resets all posters everywhere to Plex defaults
+```shell
+python ./config/chazlarson/reset-posters.py
+```
