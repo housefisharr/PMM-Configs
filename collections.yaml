@@ -14,6 +14,25 @@ templates:
 #    schedule: weekly(friday)
 
 collections:
+  #aliens
+  #batman
+  #blade runner
+  #bourne
+  #dc Extended U
+  #dune
+  #friday13th
+  #indiana jones
+  #jackass
+  #matrix
+  #planetoftheapes
+  #predator
+  #rambo
+  #robocop
+  #rocky
+  #southpark
+  #studioghibli
+  #terminator
+  #transformers
   DC Comics Universe:
     template: {name: collection}
     tmdb_list_details: 3
