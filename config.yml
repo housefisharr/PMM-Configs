@@ -1,21 +1,20 @@
-#python plex_meta_manager.py -r
+# python plex_meta_manager.py -r
 libraries:
-  3D Movies:
-    metadata_path:
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-awards.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/3d-charts.yml
   Anime:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/anime-charts.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections.yml
   Movies:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-awards.yml
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-charts.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections.yml
   TV Shows:
     metadata_path:
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-awards.yml
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-charts.yml
       - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-networks.yml
+      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections.yml
 settings:
   cache: true
   cache_expiration: 60
@@ -61,19 +60,20 @@ tmdb:
   apikey: 
   language: en
   cache_expiration: 60
+  region:
 tautulli:
-  url: http://10.10.10.10:8181
+  url: http://10.10.10.10:24100
   apikey: 
 radarr:
-  url: http://10.10.10.10:7878
+  url: http://10.10.10.10:26200
   token: 
   version: v3
   root_folder_path: /data/media/movies/1080p
   monitor: true
   availability: announced
-  quality_profile: 1080p-20Mbps
+  quality_profile: 1080p
   tag:
-  search: false
+  search: true
   add_existing: false
   add_missing: false
   radarr_path:
@@ -100,8 +100,9 @@ trakt:
   client_secret: 
   authorization:
     access_token: 
-    token_type: Bearer
-    expires_in: 7889237
+    token_type: 
+    expires_in: 
     refresh_token: 
-    scope: public
-    created_at: 1643601604
+    scope: 
+    created_at: 
+  pin:
