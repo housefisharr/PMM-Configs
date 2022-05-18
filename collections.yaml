@@ -8,7 +8,7 @@ templates:
       - movie
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    sort_title: +09_<<collection_name>>
+    sort_title: ZZZZ+20_<<collection_name>>
     sync_mode: sync
     collection_order: custom
 #    schedule: weekly(friday)
@@ -86,7 +86,6 @@ collections:
     tmdb_list_details: 63607
     url_poster: https://i.imgur.com/qjNHdhY.jpeg
     url_background: https://wallpaperaccess.com/full/562430.jpg
-    sort_title: +09_Harry Potter
 
   X-Men:
     template: {name: collection}
