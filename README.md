@@ -5,3 +5,9 @@
 
 Scripts to create Plex Collections
 posters taken from zluckytraveler, overlays from bradmartin
+
+## How to run
+### PMM Default
+```shell
+python plex_meta_manager.py -r
+```
