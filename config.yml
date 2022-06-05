@@ -50,7 +50,7 @@ settings:
   verify_ssl: true
   custom_repo:
 plex:
-  url: http://10.10.10.10:32400
+  url: http://10.10.10.50:32400
   token: 
   timeout: 180
   clean_bundles: false
@@ -68,7 +68,7 @@ radarr:
   url: http://10.10.10.10:26200
   token: 
   version: v3
-  root_folder_path: /data/media/movies/1080p
+  root_folder_path: /media/movies/1080p
   monitor: true
   availability: announced
   quality_profile: 1080p
@@ -82,7 +82,7 @@ sonarr:
   url: http://10.10.10.10:26100
   token: 
   version: v3
-  root_folder_path: /data/media/tv/1080p
+  root_folder_path: /media/tv/1080p
   monitor: all
   quality_profile: 1080p
   language_profile: English
