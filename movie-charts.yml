@@ -11,7 +11,7 @@ collections:
     smart_filter:
       sort_by: release.desc
       all:
-        release: 100
+        release: 300
       limit: 100
   Recently Added Movies:
     sort_title: ++13
