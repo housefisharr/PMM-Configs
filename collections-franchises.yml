@@ -14,89 +14,478 @@ templates:
 #    schedule: weekly(friday)
 
 collections:
-  #aliens
-  #backtothefuture
-  #batman
-  #blade runner
-  #bourne
-  #dc Extended U
-  #dune
-  #friday13th
-  #indiana jones
-  #jackass
-  #jamesbond
-  #matrix
-  #nightmareonelmstreet
-  #planetoftheapes
-  #predator
-  #rambo
-  #robocop
-  #rocky
-  #southpark
-  #studioghibli
-  #terminator
-  #transformers
+  # 28 Days/Weeks Later Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/28-Days-Weeks-Later.jpg
+  #   url_background: 
+  # Aliens Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Alien.jpg
+  #   url_background: 
+  # Ace Ventura Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Addams Family Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Alice in Wonderland Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Amazing Spider-Man Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # American Pie Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/American%20Pie.jpg
+  #   url_background: 
+  # Anchorman Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Ant-Man Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Appleseed Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Army of the Dead Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Austin Powers Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Avengers Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Back to the Future Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Batman Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Batman.jpg
+  #   url_background: 
+  # Batman Animated Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Bill & Ted Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Blade Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Blade Runner Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Blues Brothers Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Bourne Collection Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Bourne.jpg
+  #   url_background: 
+  # Captain America Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Chronicles of Narnia Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # City Slickers Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Clash of the Titans Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Cloverfield Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Cloverfield.jpg
+  #   url_background: 
+  # Cornetto Trilogy Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Cornetto%20Trilogy.jpg
+  #   url_background: 
+  # Cocoon Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # The Dark Knight Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Darko Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Deadpool Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Deadpool.jpg
+  #   url_background: 
+  # The Decline of Western Civilization Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Die Hard Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Dune Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Ernest Collection Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Escape From Collection Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Escape%20From.jpg
+  #   url_background: 
+  # Escape Plan Collection Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Evil Dead Collection Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # The Expendables Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Fantastic Beasts Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Fantastic%20Beasts.jpg
+  #   url_background: 
+  # Fantastic Four Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Final Fantasy Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Final%20Fantasy.jpg
+  #   url_background: 
+  # Friday the 13th Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Friday%20the%2013th.jpg
+  #   url_background: 
+  # Ghostbusters Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Ghostbusters.jpg
+  #   url_background: 
+  # Godzilla Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Godzilla.jpg
+  #   url_background: 
+  # Halloween Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Halloween.jpg
+  #   url_background: 
+  # Halo Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Halo.jpg
+  #   url_background: 
+  # Hannibal Lecter Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Hannibal%20Lecter.jpg
+  #   url_background: 
+  # Has Fallen Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Has%20Fallen.jpg
+  #   url_background: 
+  # The Hunger Games Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/The%20Hunger%20Games.jpg
+  #   url_background: 
+  # The Hobbit Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Indiana Jones Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Indiana%20Jones.jpg
+  #   url_background: 
+  # Jackass Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Jurassic World Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # The Matrix Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Mission Impossible Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Mission%20Impossible.jpg
+  #   url_background: 
+  # Monty Python Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Monty%20Python.jpg
+  #   url_background: 
+  # Mortal Kombat Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Mortal%20Kombat.jpg
+  #   url_background: 
+  # The Mummy Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/The%20Mummy.jpg
+  #   url_background: 
+  # A Nightmare on Elm Street Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/A%20Nightmare%20on%20Elm%20Street.jpg
+  #   url_background: 
+  # Oz Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Oz.jpg
+  #   url_background: 
+  # Pirates of the Caribbean Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Pirates%20of%20the%20Caribbean.jpg
+  #   url_background: 
+  # Planet of the Apes Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Planet%20of%20the%20Apes.jpg
+  #   url_background: 
+  # Pokemon Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Pok%C3%A9mon.jpg
+  #   url_background: 
+  # Predator Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Rambo Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Resident Evil Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Resident%20Evil.jpg
+  #   url_background: 
+  # Robocop Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Rocky Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Rocky.jpg
+  #   url_background: 
+  # Shrek Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Shrek.jpg
+  #   url_background: 
+  # South Park Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Star Trek Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Studio Ghibli Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Superman Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Superman.jpg
+  #   url_background: 
+  # Teenage Mutant Ninja Turtles Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Teenage%20Mutant%20Ninja%20Turtles.jpg
+  #   url_background: 
+  # Terminator Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+  # Tomb Raider Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Tomb%20Raider.jpg
+  #   url_background: 
+  # Toy Story Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Toy%20Story.jpg
+  #   url_background: 
+  # Transformers Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Transformers.jpg
+  #   url_background: 
+  # Tron Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Tron.jpg
+  #   url_background: 
+  # Unbreakable Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Unbreakable.jpg
+  #   url_background: 
+  # Wonder Woman Collection:
+  #   template: {name: collection}
+  #   tmdb_list_details: 
+  #   url_poster: 
+  #   url_background: 
+
   DC Comics Universe:
     template: {name: collection}
     tmdb_list_details: 3
-    url_poster: https://i.imgur.com/TJr35Au.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/DC%20Universe.jpg
     url_background: https://wallpaper.dog/large/17164614.jpg
 
   Fast and the Furious:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/ireallylovevids/lists/fast-and-furious
-    url_poster: https://i.imgur.com/dPnWh1B.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Fast%20%26%20Furious.jpg
     url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
+
+  Harry Potter Collection:
+    template: {name: collection}
+    tmdb_list_details: 63607
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Harry%20Potter.jpg
+    url_background: https://wallpaperaccess.com/full/562430.jpg
 
   James Bond:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/any/lists/james-bond
-    url_poster: https://i.imgur.com/DO6IDWi.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/James%20Bond%20007.jpg
     url_background: https://www.pixel4k.com/wp-content/uploads/2018/09/james-bond-007_1536401470.jpg
 
   Jurassic Park:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/darkman1498/lists/jurassic-park
-    url_poster: https://i.imgur.com/dj3gain.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Jurassic%20Park.jpg
     url_background: https://www.teahub.io/photos/full/54-546246_2500x1200-jurassic-world-wallpapers-jurassic-park-wallpaper-4k.jpg
 
   Lord of the Rings:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/lutgnature/lists/lord-of-the-rings-hobbit
-    url_poster: https://i.imgur.com/xFbp0IR.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Lord%20of%20the%20Rings.jpg
     url_background: https://wallpaperaccess.com/full/838293.jpg
 
   Marvel Universe:
     template: {name: collection}
     tmdb_list_details: 1
     url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
-    
+
   Marvel Cinematic Universe:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
-    url_poster: https://i.imgur.com/iDi8DBe.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Marvel%20Cinematic%20Universe.jpg
     url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
 
   Spider-man Universe:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/james_97/lists/spider-verse
-    url_poster: https://i.imgur.com/keYWzrL.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Spider-Man.jpg
     url_background: https://i.ibb.co/P59wtVs/download.jpg
 
   Star Wars:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/draackje/lists/star-wars
-    url_poster: https://i.imgur.com/jlLZuOr.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Star%20Wars.jpg
     url_background: https://wallpaperaccess.com/full/1101749.jpg
-
-  Wizarding World of Harry Potter:
-    template: {name: collection}
-    tmdb_list_details: 63607
-    url_poster: https://i.imgur.com/qjNHdhY.jpeg
-    url_background: https://wallpaperaccess.com/full/562430.jpg
 
   X-Men:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/bertjj/lists/x-men
-    url_poster: https://i.imgur.com/GFamrIY.jpeg
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/X-Men.jpg
     url_background: https://s2.best-wallpaper.net/wallpaper/3840x2160/1607/X-Men-Days-of-Future-Past-Ultra-HD_3840x2160.jpg
