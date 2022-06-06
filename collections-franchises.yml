@@ -66,6 +66,11 @@ collections:
     url_poster: https://i.imgur.com/xFbp0IR.jpeg
     url_background: https://wallpaperaccess.com/full/838293.jpg
 
+  Marvel Universe:
+    template: {name: collection}
+    tmdb_list_details: 1
+    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
+    
   Marvel Cinematic Universe:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
