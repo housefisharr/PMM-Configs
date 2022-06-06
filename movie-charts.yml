@@ -12,7 +12,7 @@ collections:
       sort_by: release.desc
       all:
         release: 300
-      limit: 100
+      limit: 200
   Recently Added Movies:
     sort_title: ++13
     summary: Movies added to Plex in the past 60 days, newest first.
