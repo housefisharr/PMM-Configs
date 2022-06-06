@@ -2,19 +2,19 @@
 libraries:
   Anime:
     metadata_path:
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/anime-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/anime-charts.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections-franchises.yml
   Movies:
     metadata_path:
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-awards.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-awards.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/movie-charts.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections-franchises.yml
   TV Shows:
     metadata_path:
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-awards.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-charts.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-networks.yml
-      - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-awards.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-charts.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/tv-networks.yml
+    - url: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/collections-franchises.yml
 settings:
   cache: true
   cache_expiration: 60
@@ -49,6 +49,9 @@ settings:
   playlist_sync_to_users: all
   verify_ssl: true
   custom_repo:
+  prioritize_assets: false
+  playlist_report: true
+  check_nightly: false
 plex:
   url: http://10.10.10.50:32400
   token: 
@@ -78,6 +81,7 @@ radarr:
   add_missing: false
   radarr_path:
   plex_path:
+  upgrade_existing: false
 sonarr:
   url: http://10.10.10.10:26100
   token: 
@@ -95,14 +99,16 @@ sonarr:
   add_missing: false
   sonarr_path:
   plex_path:
+  upgrade_existing: false
 trakt:
   client_id: 
   client_secret: 
+  pin:
   authorization:
+    # everything below is autofilled by the script
     access_token: 
     token_type: 
     expires_in: 
     refresh_token: 
     scope: 
     created_at: 
-  pin:
