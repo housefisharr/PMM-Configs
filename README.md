@@ -11,12 +11,16 @@ sudo cp ./PMM-Configs/config.yml ./config.yml
 docker exec -it pmm sh
 python plex_meta_manager.py -r
 ```
-### Radarr Collections
--f for full scan, -e to exclude movies in radarr's exclusion lists
-https://github.com/RhinoRhys/radarr-collections
-```shell
+
+### Radarr Collections [RhinoRhys](https://github.com/RhinoRhys/radarr-collections)
+- Switches: -f for full scan, -e to exclude movies in radarr's exclusion lists
+- Run git clone while in the PMM appdata folder, for Unraid this is /mnt/user/appdata/plex-meta-manager, for me this is /opt/pmm
+```bash
+sudo git clone https://github.com/RhinoRhys/radarr-collections
+docker exec -it pmm sh
 python ./config/rcm/rcm.py ./config/rcm -f -e
 ```
+
 ### ChazLarson's Reset Posters
 Resets all posters everywhere to Plex defaults
 https://github.com/chazlarson/Media-Scripts
