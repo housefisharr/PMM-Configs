@@ -12,7 +12,7 @@ docker exec -it pmm sh
 python plex_meta_manager.py -r
 ```
 
-### Radarr Collections from [RhinoRhys](https://github.com/RhinoRhys/radarr-collections)
+### [RhinoRhys](https://github.com/RhinoRhys/radarr-collections)'s Radarr Collections
 - Switches: -f for full scan, -e to exclude movies in radarr's exclusion lists
 - Run git clone while in the PMM appdata folder, for Unraid this is /mnt/user/appdata/plex-meta-manager, for me this is /opt/pmm
 ```bash
