@@ -1,6 +1,6 @@
 
 ## Scripts to create Plex Collections with [PMM](https://github.com/meisnate12/Plex-Meta-Manager)
-## Usage & info
+### Usage & info
 
 Things to keep in mind: 
 
