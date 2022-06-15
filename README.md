@@ -1,7 +1,7 @@
 # PMM-Configs
-##Scripts to create Plex Collections
+## Scripts to create Plex Collections
 https://github.com/meisnate12/Plex-Meta-Manager
-##CD into PMM's persistent volume on docker host and run
+## CD into PMM's persistent volume on docker host and run
 ```bash
 sudo git clone https://github.com/housefisharr/PMM-Configs
 ```
