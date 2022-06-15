@@ -3,23 +3,12 @@
 ### Usage & info
 
 Things to keep in mind: 
-
-- Run as Administrator 
-- [PowerShell execution policies](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2) 
-
-```shell
-git clone https://github.com/SegoCode/DebloBat
-cd DebloBat
-Deblo.bat
-```
-### How to install
-#### CD into PMM's persistent volume on docker host and run
+- Run git clone while in the PMM appdata folder, for Unraid this is /mnt/user/appdata/plex-meta-manager, for me this is /opt/pmm
 ```bash
 sudo git clone https://github.com/housefisharr/PMM-Configs
-```
-### How to run
-### PMM Default
-```shell
+sudo mv config.yml config-old.yml
+sudo cp ./PMM-Configs/config.yml ./config.yml
+docker exec -it pmm sh
 python plex_meta_manager.py -r
 ```
 ### Radarr Collections
