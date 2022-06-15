@@ -1,6 +1,17 @@
 
-## Scripts to create Plex Collections
-https://github.com/meisnate12/Plex-Meta-Manager
+## Scripts to create Plex Collections with [PMM](https://github.com/meisnate12/Plex-Meta-Manager)
+## Usage & info
+
+Things to keep in mind: 
+
+- Run as Administrator 
+- [PowerShell execution policies](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2) 
+
+```shell
+git clone https://github.com/SegoCode/DebloBat
+cd DebloBat
+Deblo.bat
+```
 ### How to install
 #### CD into PMM's persistent volume on docker host and run
 ```bash
