@@ -5,9 +5,9 @@ collections:
     summary: Episodes aired in the past 60 days, newest first.
     url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/posters/Recently%20Aired.png
     url_background: https://raw.githubusercontent.com/housefisharr/PMM-Configs/main/backgrounds/tv.jpg
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_library: false
+    visible_home: false
+    visible_shared: false
     smart_filter:
       all:
         episode_air_date: 60
