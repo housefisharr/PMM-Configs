@@ -12,8 +12,72 @@ templates:
     sync_mode: sync
     collection_order: custom
 #    schedule: weekly(friday)
-
 collections:
+  DC Comics Universe:
+    template: {name: collection}
+    tmdb_list_details: 3
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/DC%20Universe.jpg
+    url_background: https://wallpaper.dog/large/17164614.jpg
+
+  Fast and the Furious:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/ireallylovevids/lists/fast-and-furious
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Fast%20%26%20Furious.jpg
+    url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
+
+  Harry Potter Collection:
+    template: {name: collection}
+    tmdb_list_details: 63607
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Harry%20Potter.jpg
+    url_background: https://wallpaperaccess.com/full/562430.jpg
+
+  James Bond:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/any/lists/james-bond
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/James%20Bond%20007.jpg
+    url_background: https://www.pixel4k.com/wp-content/uploads/2018/09/james-bond-007_1536401470.jpg
+
+  Jurassic Park:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/darkman1498/lists/jurassic-park
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Jurassic%20Park.jpg
+    url_background: https://www.teahub.io/photos/full/54-546246_2500x1200-jurassic-world-wallpapers-jurassic-park-wallpaper-4k.jpg
+
+  Lord of the Rings:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/lutgnature/lists/lord-of-the-rings-hobbit
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Lord%20of%20the%20Rings.jpg
+    url_background: https://wallpaperaccess.com/full/838293.jpg
+
+  Marvel Universe:
+    template: {name: collection}
+    tmdb_list_details: 1
+    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
+
+  Marvel Cinematic Universe:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Marvel%20Cinematic%20Universe.jpg
+    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
+
+  Spider-man Universe:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/james_97/lists/spider-verse
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Spider-Man.jpg
+    url_background: https://i.ibb.co/P59wtVs/download.jpg
+
+  Star Wars:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/draackje/lists/star-wars
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Star%20Wars.jpg
+    url_background: https://wallpaperaccess.com/full/1101749.jpg
+
+  X-Men:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/bertjj/lists/x-men
+    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/X-Men.jpg
+    url_background: https://s2.best-wallpaper.net/wallpaper/3840x2160/1607/X-Men-Days-of-Future-Past-Ultra-HD_3840x2160.jpg
+
   # 28 Days/Weeks Later Collection:
   #   template: {name: collection}
   #   tmdb_list_details: 
@@ -425,67 +489,3 @@ collections:
   #   url_poster: 
   #   url_background: 
 
-  DC Comics Universe:
-    template: {name: collection}
-    tmdb_list_details: 3
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/DC%20Universe.jpg
-    url_background: https://wallpaper.dog/large/17164614.jpg
-
-  Fast and the Furious:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/ireallylovevids/lists/fast-and-furious
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Fast%20%26%20Furious.jpg
-    url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
-
-  Harry Potter Collection:
-    template: {name: collection}
-    tmdb_list_details: 63607
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Harry%20Potter.jpg
-    url_background: https://wallpaperaccess.com/full/562430.jpg
-
-  James Bond:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/any/lists/james-bond
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/James%20Bond%20007.jpg
-    url_background: https://www.pixel4k.com/wp-content/uploads/2018/09/james-bond-007_1536401470.jpg
-
-  Jurassic Park:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/darkman1498/lists/jurassic-park
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Jurassic%20Park.jpg
-    url_background: https://www.teahub.io/photos/full/54-546246_2500x1200-jurassic-world-wallpapers-jurassic-park-wallpaper-4k.jpg
-
-  Lord of the Rings:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/lutgnature/lists/lord-of-the-rings-hobbit
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Lord%20of%20the%20Rings.jpg
-    url_background: https://wallpaperaccess.com/full/838293.jpg
-
-  Marvel Universe:
-    template: {name: collection}
-    tmdb_list_details: 1
-    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
-
-  Marvel Cinematic Universe:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Marvel%20Cinematic%20Universe.jpg
-    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
-
-  Spider-man Universe:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/james_97/lists/spider-verse
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Spider-Man.jpg
-    url_background: https://i.ibb.co/P59wtVs/download.jpg
-
-  Star Wars:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/draackje/lists/star-wars
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/Star%20Wars.jpg
-    url_background: https://wallpaperaccess.com/full/1101749.jpg
-
-  X-Men:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/bertjj/lists/x-men
-    url_poster: https://raw.githubusercontent.com/housefisharr/PMM-Images/master/franchise/X-Men.jpg
-    url_background: https://s2.best-wallpaper.net/wallpaper/3840x2160/1607/X-Men-Days-of-Future-Past-Ultra-HD_3840x2160.jpg
