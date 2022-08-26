@@ -53,7 +53,7 @@ settings:
   playlist_report: true
   check_nightly: false
 plex:
-  url: http://10.10.10.50:32400
+  url: 
   token: 
   timeout: 180
   clean_bundles: false
@@ -65,10 +65,10 @@ tmdb:
   cache_expiration: 60
   region:
 tautulli:
-  url: http://10.10.10.10:24100
+  url: 
   apikey: 
 radarr:
-  url: http://10.10.10.10:26200
+  url: 
   token: 
   version: v3
   root_folder_path: /media/movies/1080p
@@ -83,7 +83,7 @@ radarr:
   plex_path:
   upgrade_existing: false
 sonarr:
-  url: http://10.10.10.10:26100
+  url: 
   token: 
   version: v3
   root_folder_path: /media/tv/1080p
